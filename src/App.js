@@ -174,7 +174,7 @@ function App() {
                     fullWidth
                     variant="outlined"
                     label="FQC Inspector"
-                    name="FQCInspector"
+                    name="fQCInspector"
                     onChange={handleChange}
                     value={item.fQCInspector}
                   />
@@ -186,7 +186,7 @@ function App() {
                     fullWidth
                     variant="outlined"
                     label="In Box ID"
-                    name="inboxID"
+                    name="inBoxID"
                     onChange={handleChange}
                     value={item.inBoxID}
                   />
