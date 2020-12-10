@@ -16,16 +16,16 @@ import {
 } from "@material-ui/core";
 
 const initialState = {
-  outBoxID: "",
-  batchcode: "",
-  IQCInspector: "",
-  defectCode: "",
-  defectLocation: "",
-  reworkMethod: "",
-  reworkOperator: "",
-  reinspectionResult: "",
-  FQCInspector: "",
-  inboxID: "",
+  outBoxID: '',
+  serialNumber: '',
+  iQCInspector: '',
+  defectCode: '',
+  defectLocation: '',
+  reworkMethod: '',
+  reworkOperator: '',
+  reinspectionResult: '',
+  fQCInspector: '',
+  inBoxID: '',
 };
 
 function App() {
@@ -90,9 +90,9 @@ function App() {
                     fullWidth
                     variant="outlined"
                     label="Batch code"
-                    name="batchcode"
+                    name="serialNumber"
                     onChange={handleChange}
-                    value={item.batchcode}
+                    value={item.serialNumber}
                   />
                 </Grid>
               </Grid>
@@ -102,9 +102,9 @@ function App() {
                     fullWidth
                     variant="outlined"
                     label="IQC Inspector"
-                    name="IQCInspector"
+                    name="iQCInspector"
                     onChange={handleChange}
-                    value={item.IQCInspector}
+                    value={item.iQCInspector}
                   />
                 </Grid>
               </Grid>
@@ -176,7 +176,7 @@ function App() {
                     label="FQC Inspector"
                     name="FQCInspector"
                     onChange={handleChange}
-                    value={item.FQCInspector}
+                    value={item.fQCInspector}
                   />
                 </Grid>
               </Grid>
@@ -188,7 +188,7 @@ function App() {
                     label="In Box ID"
                     name="inboxID"
                     onChange={handleChange}
-                    value={item.inboxID}
+                    value={item.inBoxID}
                   />
                 </Grid>
               </Grid>
