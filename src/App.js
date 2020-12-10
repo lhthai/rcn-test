@@ -44,7 +44,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // await axios.post("", item);
+      await axios.post("http://115.74.203.143:3000/api/rcnscanning", item);
       setOpenDialog(true);
     } catch (error) {
       console.log(error);
